@@ -43,7 +43,7 @@ export default function Landing() {
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
             <span className="inline-flex items-center gap-2 rounded-full bg-amber/15 px-3 py-1 text-xs font-semibold text-amber-dark">
-              Hacknovate 7.0 · Smart Mobility &amp; Intelligent Transportation
+             Smart Mobility &amp; Intelligent Transportation
             </span>
             <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] text-ink sm:text-5xl lg:text-6xl">
               Traffic apps show you roads.

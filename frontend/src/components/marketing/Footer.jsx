@@ -14,7 +14,6 @@ export default function Footer() {
             </div>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-paper/50">
               Smart mobility for roads that don't behave like the map says they will.
-              Built for Hacknovate 7.0 — Smart Mobility & Intelligent Transportation.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-16">
@@ -31,13 +30,12 @@ export default function Footer() {
               <ul className="mt-3 space-y-2 text-sm text-paper/60">
                 <li>Team Vikas</li>
                 <li>PS Category — Software</li>
-                <li>Hacknovate 7.0</li>
               </ul>
             </div>
           </div>
         </div>
         <div className="mt-10 border-t border-paper/10 pt-6 text-xs text-paper/35">
-          © {new Date().getFullYear()} Vikas. Idea submission for Hacknovate 7.0.
+          © {new Date().getFullYear()}
         </div>
       </div>
     </footer>

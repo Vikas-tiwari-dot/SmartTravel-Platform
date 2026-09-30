@@ -1,8 +1,7 @@
 # Vikas — Smart Mobility Frontend
 
 A React frontend for **Vikas**, a smart mobility concept for unpredictable Indian
-roads, built from the Hacknovate 7.0 idea-submission deck (problem statement,
-architecture, feasibility, and impact slides).
+roads.
 
 ## What's implemented
 
