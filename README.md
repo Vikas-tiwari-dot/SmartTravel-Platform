@@ -195,8 +195,8 @@ saksham-fullstack-2/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd saksham-fullstack-2
+git clone https://github.com/Vikas-tiwari-dot/SmartTravel-Platform
+cd SmartTravel
 ```
 
 ### 2. Install frontend dependencies
