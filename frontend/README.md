@@ -1,6 +1,6 @@
-# Vikas — Smart Mobility Frontend
+# TripLink — Smart Mobility Frontend
 
-A React frontend for **Vikas**, a smart mobility concept for unpredictable Indian
+A React frontend for **TripLink**, a smart mobility concept for unpredictable Indian
 roads.
 
 ## What's implemented

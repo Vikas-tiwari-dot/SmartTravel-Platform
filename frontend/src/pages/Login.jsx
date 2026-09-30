@@ -37,7 +37,7 @@ export default function Login() {
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-amber">
             <Milestone size={19} strokeWidth={2.25} />
           </span>
-          <span className="font-display text-xl font-bold tracking-tight">Vikas</span>
+          <span className="font-display text-xl font-bold tracking-tight">TripLink</span>
         </Link>
 
         <div className="rounded-2xl border border-line bg-paper p-7 shadow-[var(--shadow-stone)]">
@@ -72,12 +72,12 @@ export default function Login() {
           </form>
 
           <p className="mt-5 text-center text-xs text-ink/40">
-            Seeded demo account: demo@Vikas.app / demopass123
+            Seeded demo account: demo@TripLink.app / demopass123
           </p>
         </div>
 
         <p className="mt-6 text-center text-sm text-ink/55">
-          New to Vikas?{" "}
+          New to TripLink?{" "}
           <Link to="/signup" className="font-semibold text-teal hover:text-teal-dark">
             Create an account
           </Link>

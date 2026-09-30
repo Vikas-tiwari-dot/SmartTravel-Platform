@@ -11,7 +11,7 @@ async function start() {
   initSocket(httpServer);
 
   httpServer.listen(env.port, () => {
-    console.log(`[server] Vikas API listening on http://localhost:${env.port}`);
+    console.log(`[server] TripLink API listening on http://localhost:${env.port}`);
     console.log(`[server] Socket.IO ready on the same port`);
     console.log(`[server] Routing via OSRM at ${env.osrmBaseUrl}`);
   });

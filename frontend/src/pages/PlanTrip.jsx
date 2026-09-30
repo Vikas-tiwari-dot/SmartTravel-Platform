@@ -62,7 +62,7 @@ export default function PlanTrip() {
             type="time"
             value={arrivalTime}
             onChange={(e) => setArrivalTime(e.target.value)}
-            hint="Vikas works backward from this to suggest a departure window."
+            hint="TripLink works backward from this to suggest a departure window."
           />
 
           <div>
@@ -119,7 +119,7 @@ export default function PlanTrip() {
         <EmptyState
           icon={MilestoneIcon}
           title="Your route options will show up here"
-          body="Enter a start and destination above — Vikas checks for disruptions before it recommends anything."
+          body="Enter a start and destination above — TripLink checks for disruptions before it recommends anything."
         />
       )}
 

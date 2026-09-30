@@ -30,9 +30,9 @@ const FEATURES = [
 ];
 
 const COMPARISON = [
-  { feature: "Traffic response", Vikas: "Dynamic, tuned to Indian road conditions", standard: "Static / historical" },
-  { feature: "Social layer", Vikas: "Peer-to-peer \"Give Way\" messaging", standard: "None" },
-  { feature: "Halt logic", Vikas: "Smart pre-orders via IVR", standard: "Manual search" },
+  { feature: "Traffic response", TripLink: "Dynamic, tuned to Indian road conditions", standard: "Static / historical" },
+  { feature: "Social layer", TripLink: "Peer-to-peer \"Give Way\" messaging", standard: "None" },
+  { feature: "Halt logic", TripLink: "Smart pre-orders via IVR", standard: "Manual search" },
 ];
 
 export default function Landing() {
@@ -48,10 +48,10 @@ export default function Landing() {
             <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] text-ink sm:text-5xl lg:text-6xl">
               Traffic apps show you roads.
               <br />
-              <span className="text-teal">Vikas shows you what's happening on them.</span>
+              <span className="text-teal">TripLink shows you what's happening on them.</span>
             </h1>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-ink/60 sm:text-lg">
-              Standard GPS routes around yesterday's traffic. Vikas routes around today's exam,
+              Standard GPS routes around yesterday's traffic. TripLink routes around today's exam,
               this afternoon's rally, and the crowd surge that started ten minutes ago — then lets
               you coordinate directly with the vehicles around you.
             </p>
@@ -117,7 +117,7 @@ export default function Landing() {
         <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24">
           <p className="text-xs font-semibold uppercase tracking-wide text-teal-dark">The unique solution</p>
           <h2 className="mt-3 max-w-2xl font-display text-3xl font-bold text-ink sm:text-4xl">
-            When one commuter has time to spare and another doesn't, Vikas lets them say so.
+            When one commuter has time to spare and another doesn't, TripLink lets them say so.
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink/60">
             If someone's running early and someone else is running late on the same stretch of
@@ -132,7 +132,7 @@ export default function Landing() {
               <thead>
                 <tr className="border-b border-line bg-ink text-paper">
                   <th className="px-5 py-3.5 font-semibold">Feature</th>
-                  <th className="px-5 py-3.5 font-semibold text-amber">Vikas</th>
+                  <th className="px-5 py-3.5 font-semibold text-amber">TripLink</th>
                   <th className="px-5 py-3.5 font-semibold text-paper/50">Standard GPS</th>
                 </tr>
               </thead>
@@ -142,7 +142,7 @@ export default function Landing() {
                     <td className="px-5 py-4 font-semibold text-ink">{row.feature}</td>
                     <td className="px-5 py-4 text-ink/70">
                       <span className="inline-flex items-center gap-1.5">
-                        <Check size={15} className="text-green shrink-0" /> {row.Vikas}
+                        <Check size={15} className="text-green shrink-0" /> {row.TripLink}
                       </span>
                     </td>
                     <td className="px-5 py-4 text-ink/40">
@@ -198,7 +198,7 @@ export default function Landing() {
 
       {/* CTA */}
       <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24 text-center">
-        <h2 className="font-display text-3xl font-bold text-ink sm:text-4xl">Try the Vikas prototype</h2>
+        <h2 className="font-display text-3xl font-bold text-ink sm:text-4xl">Try the TripLink prototype</h2>
         <p className="mx-auto mt-3 max-w-md text-ink/55">
           Every screen here runs on mock data so you can explore the full commuter flow end to end.
         </p>

@@ -48,11 +48,11 @@ async function seed() {
     RideCircleEntry.deleteMany({}),
   ]);
 
-  let demoUser = await User.findOne({ email: "demo@Vikas.app" });
+  let demoUser = await User.findOne({ email: "demo@TripLink.app" });
   if (!demoUser) {
     demoUser = await User.create({
-      name: "Vikas",
-      email: "demo@Vikas.app",
+      name: "TripLink",
+      email: "demo@TripLink.app",
       passwordHash: await User.hashPassword("demopass123"),
       handle: "@ananya.r",
       homeCity: "New Delhi",
@@ -60,14 +60,14 @@ async function seed() {
       vehicle: { nickname: "Daily Ride", type: "scooter", registration: "DL 4S AB 4471", label: "Honda Activa 6G · DL 4S AB 4471" },
       stats: { tripsPlanned: 128, hoursSaved: 34, fuelSavedLitres: 41, giveWaysSent: 19 },
     });
-    console.log("[seed] created demo user: demo@Vikas.app / demopass123");
+    console.log("[seed] created demo user: demo@TripLink.app / demopass123");
   }
 
-  let secondUser = await User.findOne({ email: "rohit@Vikas.app" });
+  let secondUser = await User.findOne({ email: "rohit@TripLink.app" });
   if (!secondUser) {
     secondUser = await User.create({
       name: "Rohit Malhotra",
-      email: "rohit@Vikas.app",
+      email: "rohit@TripLink.app",
       passwordHash: await User.hashPassword("demopass123"),
       handle: "@rohit.m",
       homeCity: "New Delhi",

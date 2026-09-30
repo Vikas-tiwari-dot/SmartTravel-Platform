@@ -3,7 +3,7 @@
 
 export const marketInsights = [
   { id: "mi1", stat: "30–40%", label: "longer travel time in metro cities from congestion" },
-  { id: "mi2", stat: "7", label: "disruption types Vikas watches for, from rallies to exam-day crowds" },
+  { id: "mi2", stat: "7", label: "disruption types TripLink watches for, from rallies to exam-day crowds" },
   { id: "mi3", stat: "0", label: "coordination between commuters on today's standard GPS apps" },
 ];
 

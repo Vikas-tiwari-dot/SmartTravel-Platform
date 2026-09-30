@@ -28,7 +28,7 @@ export default function Sidebar() {
         <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-ink text-amber">
           <Milestone size={18} strokeWidth={2.25} />
         </span>
-        <span className="font-display text-lg font-bold tracking-tight">Vikas</span>
+        <span className="font-display text-lg font-bold tracking-tight">TripLink</span>
       </div>
       <nav className="flex-1 space-y-1 px-3">
         {NAV.map(({ to, label, icon: Icon, end }) => (

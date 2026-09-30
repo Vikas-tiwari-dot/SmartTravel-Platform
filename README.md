@@ -1,6 +1,6 @@
-# 🚗 Vikas — Smart Travel & Ride Coordination Platform
+# 🚗 TripLink — Smart Travel & Ride Coordination Platform
 
-Vikas is a full-stack smart travel and ride coordination platform designed to make road trips more organized, connected, and safer.
+TripLink is a full-stack smart travel and ride coordination platform designed to make road trips more organized, connected, and safer.
 
 The platform combines **trip planning, route calculation, live location sharing, ride circles, halts, events, messaging, notifications, and vehicle management** into a single application.
 
@@ -195,7 +195,7 @@ saksham-fullstack-2/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Vikas-tiwari-dot/SmartTravel-Platform
+git clone https://github.com/TripLink-tiwari-dot/SmartTravel-Platform
 cd SmartTravel
 ```
 
@@ -270,7 +270,7 @@ Expected response:
 ```json
 {
   "ok": true,
-  "service": "Vikas-backend"
+  "service": "TripLink-backend"
 }
 ```
 
@@ -437,10 +437,10 @@ This project is currently intended for educational, development, and demonstrati
 
 ## 👨‍💻 Developer
 
-**Vikas Tiwari**
+**TripLink Tiwari**
 
-* GitHub: [Vikas-tiwari-dot](https://github.com/Vikas-tiwari-dot)
-* LinkedIn: [Vikas Tiwari](https://www.linkedin.com/in/vikas-tiwari-4226a03a4/?isSelfProfile=true)
+* GitHub: [TripLink-tiwari-dot](https://github.com/TripLink-tiwari-dot)
+* LinkedIn: [TripLink Tiwari](https://www.linkedin.com/in/TripLink-tiwari-4226a03a4/?isSelfProfile=true)
 
 ---
 

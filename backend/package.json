@@ -1,7 +1,7 @@
 {
-  "name": "Vikas-backend",
+  "name": "TripLink-backend",
   "version": "1.0.0",
-  "description": "Vikas backend — Express + MongoDB + Socket.IO API for the smart mobility app",
+  "description": "TripLink backend — Express + MongoDB + Socket.IO API for the smart mobility app",
   "main": "src/server.js",
   "type": "module",
   "scripts": {

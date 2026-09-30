@@ -10,7 +10,7 @@ export default function NotFound() {
       </span>
       <div>
         <h1 className="font-display text-3xl font-bold text-ink">Wrong turn</h1>
-        <p className="mt-2 text-ink/55">This route doesn't lead anywhere in Vikas.</p>
+        <p className="mt-2 text-ink/55">This route doesn't lead anywhere in TripLink.</p>
       </div>
       <Button as={Link} to="/" variant="amber">
         Back to safety

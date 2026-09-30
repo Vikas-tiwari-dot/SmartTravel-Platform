@@ -53,7 +53,7 @@ export default function Notifications() {
           ))}
         </div>
       ) : items.length === 0 ? (
-        <EmptyState icon={Info} title="No notifications" body="Vikas will let you know when something on your route changes." />
+        <EmptyState icon={Info} title="No notifications" body="TripLink will let you know when something on your route changes." />
       ) : (
         <div className="space-y-2.5">
           {items.map((n) => {
