@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  /* ---- Color tokens ---- */
+  --color-ink: #12141c;
+  --color-ink-soft: #2a2d3a;
+  --color-paper: #ffffff;
+  --color-mist: #f4f4f2;
+  --color-mist-dark: #e8e7e2;
+  --color-line: #e2e1db;
+
+  --color-amber: #f2a900;
+  --color-amber-dark: #c98700;
+  --color-teal: #0e7c86;
+  --color-teal-dark: #0a5b62;
+  --color-green: #1c7c54;
+  --color-green-dark: #145c3e;
+  --color-red: #e1483b;
+  --color-red-dark: #b63327;
+
+  /* ---- Type ---- */
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --shadow-stone: 0 1px 0 rgba(18,20,28,0.04), 0 8px 24px -12px rgba(18,20,28,0.18);
+  --shadow-stone-lg: 0 2px 0 rgba(18,20,28,0.04), 0 24px 48px -20px rgba(18,20,28,0.28);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-line);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background: var(--color-paper);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  .font-mono-tab {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+  ::selection {
+    background: var(--color-amber);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-teal);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@layer utilities {
+  .hazard-stripe {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      var(--color-ink) 0px,
+      var(--color-ink) 10px,
+      var(--color-amber) 10px,
+      var(--color-amber) 20px
+    );
+  }
+  .milestone-top {
+    border-radius: 999px 999px 6px 6px;
+  }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+  .scrollbar-none { scrollbar-width: none; }
+}
