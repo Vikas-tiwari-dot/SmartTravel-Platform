@@ -28,7 +28,7 @@ export default function RouteMapCanvas({ vehicles = [], activeVehicleId, onSelec
         <path d="M0 60 H400" stroke="#ffffff" strokeWidth="10" opacity="0.7" />
         <path d="M0 240 H400" stroke="#ffffff" strokeWidth="10" opacity="0.7" />
 
-        {/* TripLink smart route, highlighted */}
+        {/* VASUNDHARA smart route, highlighted */}
         <path
           d="M0 150 C 90 150, 100 60, 190 60 S 280 150, 400 150"
           stroke="var(--color-teal)"

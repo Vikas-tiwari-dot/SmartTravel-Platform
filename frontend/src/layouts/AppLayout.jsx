@@ -9,13 +9,13 @@ const TITLES = {
   "/app/map": ["Live Map", "Vehicles nearby, one tap away."],
   "/app/halts": ["Smart Halts", "Pre-order ahead, timers handle the rest."],
   "/app/ride-circle": ["Ride Circle", "Commuters on your route, right now."],
-  "/app/notifications": ["Notifications", "Everything TripLink has flagged for you."],
+  "/app/notifications": ["Notifications", "Everything VASUNDHARA has flagged for you."],
   "/app/profile": ["Profile", "Your account and vehicle details."],
 };
 
 export default function AppLayout() {
   const { pathname } = useLocation();
-  const [title, subtitle] = TITLES[pathname] || ["TripLink", ""];
+  const [title, subtitle] = TITLES[pathname] || ["VASUNDHARA", ""];
 
   return (
     <div className="flex min-h-screen bg-paper">

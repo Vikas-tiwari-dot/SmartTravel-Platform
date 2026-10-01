@@ -148,7 +148,7 @@ export default function Profile() {
             <div>
               <p className="text-sm font-semibold text-ink">Location sharing</p>
               <p className="text-sm text-ink/50">
-                Visible to nearby TripLink users only while you're on an active route, so the
+                Visible to nearby VASUNDHARA users only while you're on an active route, so the
                 vehicle interaction layer works both ways.
               </p>
             </div>

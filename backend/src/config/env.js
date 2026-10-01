@@ -11,7 +11,7 @@ function required(name, fallback) {
 export const env = {
   nodeEnv: process.env.NODE_ENV || "development",
   port: Number(process.env.PORT || 5000),
-  mongoUri: required("MONGO_URI", "mongodb://127.0.0.1:27017/TripLink"),
+  mongoUri: required("MONGO_URI", "mongodb://127.0.0.1:27017/VASUNDHARA"),
   jwtSecret: required("JWT_SECRET", "dev-only-insecure-secret-change-me"),
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || "7d",
   clientOrigin: process.env.CLIENT_ORIGIN || "http://localhost:5173",

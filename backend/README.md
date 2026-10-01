@@ -1,7 +1,7 @@
-# TripLink Backend
+# VASUNDHARA Backend
 
-Express + MongoDB + Socket.IO API for the TripLink smart mobility app. Pairs
-with the `TripLink-react-frontend` project — every REST endpoint here returns
+Express + MongoDB + Socket.IO API for the VASUNDHARA smart mobility app. Pairs
+with the `VASUNDHARA-react-frontend` project — every REST endpoint here returns
 data shaped to match what that frontend's mock `services/*.js` files already
 expect, so swapping mocks for real calls is a small, mechanical change.
 
@@ -34,7 +34,7 @@ expect, so swapping mocks for real calls is a small, mechanical change.
    ```
 
    ```env
-   MONGO_URI=mongodb://127.0.0.1:27017/TripLink
+   MONGO_URI=mongodb://127.0.0.1:27017/VASUNDHARA
    JWT_SECRET=some-long-random-string
    CLIENT_ORIGIN=http://localhost:5173
    OSRM_BASE_URL=https://router.project-osrm.org
@@ -48,8 +48,8 @@ expect, so swapping mocks for real calls is a small, mechanical change.
    npm run dev      # http://localhost:5000
    ```
 
-   Seeded login: **demo@TripLink.app / demopass123** (a second user,
-   `rohit@TripLink.app / demopass123`, exists too — useful for testing
+   Seeded login: **demo@VASUNDHARA.app / demopass123** (a second user,
+   `rohit@VASUNDHARA.app / demopass123`, exists too — useful for testing
    vehicle-to-vehicle messaging between two real accounts).
 
 ## API reference

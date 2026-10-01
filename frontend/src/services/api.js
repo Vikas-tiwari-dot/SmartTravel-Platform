@@ -3,7 +3,7 @@
 
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
 
-const TOKEN_KEY = "TripLink.token";
+const TOKEN_KEY = "VASUNDHARA.token";
 
 export function getToken() {
   return window.localStorage.getItem(TOKEN_KEY);
@@ -41,7 +41,7 @@ async function request(path, { method = "GET", body, headers, signal } = {}) {
     });
   } catch {
     throw new ApiError(
-      `Can't reach the TripLink server at ${API_BASE_URL}. Is the backend running (npm run dev in /backend)?`,
+      `Can't reach the VASUNDHARA server at ${API_BASE_URL}. Is the backend running (npm run dev in /backend)?`,
       0
     );
   }

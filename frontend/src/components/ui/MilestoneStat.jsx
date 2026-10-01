@@ -3,7 +3,7 @@ import { cn } from "../../utils/cn";
 // Indian national/state highways use painted "kilometer stones" — a curved
 // top band colour-coded by road authority (yellow = national highway,
 // green = state highway) over a white body with the distance in bold digits.
-// That object is the visual signature for TripLink's stat callouts: it's a
+// That object is the visual signature for VASUNDHARA's stat callouts: it's a
 // real artifact from the exact roads this product is built for.
 
 const BANDS = {

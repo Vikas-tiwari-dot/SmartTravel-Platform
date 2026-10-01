@@ -32,7 +32,7 @@ app.use(
   rateLimit({ windowMs: 15 * 60 * 1000, max: 300, standardHeaders: true, legacyHeaders: false })
 );
 
-app.get("/api/health", (req, res) => res.json({ ok: true, service: "TripLink-backend" }));
+app.get("/api/health", (req, res) => res.json({ ok: true, service: "VASUNDHARA-backend" }));
 
 app.use("/api/auth", authRoutes);
 app.use("/api/trips", tripRoutes);

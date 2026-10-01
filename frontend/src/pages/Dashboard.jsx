@@ -33,7 +33,7 @@ export default function Dashboard() {
         <div>
           <h2 className="font-display text-xl font-bold">Where are you headed?</h2>
           <p className="mt-1 text-sm text-paper/60">
-            TripLink checks live events and traffic before it plans your route.
+            VASUNDHARA checks live events and traffic before it plans your route.
           </p>
         </div>
         <Button as={Link} to="/app/plan" variant="amber" icon={ArrowRight} iconPosition="right">
@@ -71,7 +71,7 @@ export default function Dashboard() {
             <EmptyState
               icon={RouteIcon}
               title="No trips yet"
-              body="Plan your first route and TripLink will remember it here."
+              body="Plan your first route and VASUNDHARA will remember it here."
               action={
                 <Button as={Link} to="/app/plan" variant="outline" size="sm">
                   Plan a trip

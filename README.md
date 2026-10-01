@@ -1,6 +1,6 @@
-# 🚗 TripLink — Smart Travel & Ride Coordination Platform
+# 🚗 VASUNDHARA — Smart Travel & Ride Coordination Platform
 
-TripLink is a full-stack smart travel and ride coordination platform designed to make road trips more organized, connected, and safer.
+VASUNDHARA is a full-stack smart travel and ride coordination platform designed to make road trips more organized, connected, and safer.
 
 The platform combines **trip planning, route calculation, live location sharing, ride circles, halts, events, messaging, notifications, and vehicle management** into a single application.
 
@@ -195,7 +195,7 @@ saksham-fullstack-2/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/TripLink-tiwari-dot/SmartTravel-Platform
+git clone https://github.com/VASUNDHARA-tiwari-dot/SmartTravel-Platform
 cd SmartTravel
 ```
 
@@ -270,7 +270,7 @@ Expected response:
 ```json
 {
   "ok": true,
-  "service": "TripLink-backend"
+  "service": "VASUNDHARA-backend"
 }
 ```
 
@@ -437,10 +437,10 @@ This project is currently intended for educational, development, and demonstrati
 
 ## 👨‍💻 Developer
 
-**TripLink Tiwari**
+**VASUNDHARA Tiwari**
 
-* GitHub: [TripLink-tiwari-dot](https://github.com/TripLink-tiwari-dot)
-* LinkedIn: [TripLink Tiwari](https://www.linkedin.com/in/TripLink-tiwari-4226a03a4/?isSelfProfile=true)
+* GitHub: [VASUNDHARA-tiwari-dot](https://github.com/VASUNDHARA-tiwari-dot)
+* LinkedIn: [VASUNDHARA Tiwari](https://www.linkedin.com/in/VASUNDHARA-tiwari-4226a03a4/?isSelfProfile=true)
 
 ---
 

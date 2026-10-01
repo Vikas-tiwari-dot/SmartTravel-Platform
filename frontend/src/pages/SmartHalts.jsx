@@ -100,7 +100,7 @@ export default function SmartHalts() {
         <EmptyState
           icon={Coffee}
           title="No halts planned"
-          body="Add a tea stop, meal, or fuel stop and TripLink will pre-order and time it for you."
+          body="Add a tea stop, meal, or fuel stop and VASUNDHARA will pre-order and time it for you."
           action={
             <Button variant="outline" size="sm" icon={Plus} onClick={() => setModalOpen(true)}>
               Add a halt

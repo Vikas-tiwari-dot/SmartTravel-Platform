@@ -1,6 +1,6 @@
-# TripLink — Smart Mobility Frontend
+# VASUNDHARA — Smart Mobility Frontend
 
-A React frontend for **TripLink**, a smart mobility concept for unpredictable Indian
+A React frontend for **VASUNDHARA**, a smart mobility concept for unpredictable Indian
 roads.
 
 ## What's implemented

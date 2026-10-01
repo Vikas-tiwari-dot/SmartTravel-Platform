@@ -12,7 +12,7 @@ const NOMINATIM_BASE = "https://nominatim.openstreetmap.org";
 // the application (and asks for max ~1 request/second, which the caller
 // in routeEngine.js respects by only ever geocoding two points per trip).
 const NOMINATIM_HEADERS = {
-  "User-Agent": "TripLink-smart-mobility-app/1.0 (educational project)",
+  "User-Agent": "VASUNDHARA-smart-mobility-app/1.0 (educational project)",
   "Accept-Language": "en",
 };
 

@@ -1,7 +1,7 @@
 {
-  "name": "TripLink-backend",
+  "name": "VASUNDHARA-backend",
   "version": "1.0.0",
-  "description": "TripLink backend — Express + MongoDB + Socket.IO API for the smart mobility app",
+  "description": "VASUNDHARA backend — Express + MongoDB + Socket.IO API for the smart mobility app",
   "main": "src/server.js",
   "type": "module",
   "scripts": {

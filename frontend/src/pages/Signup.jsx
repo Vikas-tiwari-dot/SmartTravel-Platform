@@ -22,7 +22,7 @@ export default function Signup() {
     setLoading(true);
     try {
       await signUp({ name, email, password });
-      notify("Account created — welcome to TripLink!", { tone: "green" });
+      notify("Account created — welcome to VASUNDHARA!", { tone: "green" });
       navigate("/app");
     } catch (err) {
       setError(err.message);
@@ -38,7 +38,7 @@ export default function Signup() {
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-ink text-amber">
             <Milestone size={19} strokeWidth={2.25} />
           </span>
-          <span className="font-display text-xl font-bold tracking-tight">TripLink</span>
+          <span className="font-display text-xl font-bold tracking-tight">VASUNDHARA</span>
         </Link>
 
         <div className="rounded-2xl border border-line bg-paper p-7 shadow-[var(--shadow-stone)]">
@@ -49,7 +49,7 @@ export default function Signup() {
             <Input
               label="Full name"
               icon={User}
-              placeholder="TripLink"
+              placeholder="VASUNDHARA"
               value={name}
               onChange={(e) => setName(e.target.value)}
               autoComplete="name"

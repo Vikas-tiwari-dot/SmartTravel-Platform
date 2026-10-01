@@ -10,7 +10,7 @@ export default function Footer() {
               <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-amber text-ink">
                 <Milestone size={16} strokeWidth={2.5} />
               </span>
-              <span className="font-display text-base font-bold text-paper">TripLink</span>
+              <span className="font-display text-base font-bold text-paper">VASUNDHARA</span>
             </div>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-paper/50">
               Smart mobility for roads that don't behave like the map says they will.
@@ -28,7 +28,7 @@ export default function Footer() {
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-paper/40">Team</p>
               <ul className="mt-3 space-y-2 text-sm text-paper/60">
-                <li>Team TripLink</li>
+                <li>Team VASUNDHARA</li>
                 <li>PS Category — Software</li>
               </ul>
             </div>
